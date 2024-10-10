@@ -50,3 +50,4 @@ D - deleted: soubor v historii existuje, ale je pripraveny pro odstraneni z prac
 
 //soubory musime naklikat do staging faze
 //budto tam vlozite vsehcno nebo naklikate + jen uz nekterych souboru
+
