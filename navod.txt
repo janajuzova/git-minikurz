@@ -84,3 +84,18 @@ https://github.com/Pidli/git-minikurz
 
 //kdyz forkujete a chcte originalnu autorovi nabidnout svuj kod, tak provedete commit a originalnimu autorovi pak poslete "pull request"
 //autor se na vas pull request podiva a bud provede merge nebo pull request zrusi
+
+//nektere soubory chceme permanente zaignorvat, aby je git vubec nevidel a nepocital s nima
+//vetsinou jsou to configuracni soubor nebo slozka vendor nebo soubor s hesly
+
+//vytvorime si soubor, ktery se jmenuje .gitignore
+//v tomto souboru uvedeme vsechny soubory a slozky, ktere git neuvidi
+
+//na kazdy radek uvedete nazev souboru nebo slozky
+//pokud je to slozka, musi koncit lomitkem /
+
+//co je to github pages?
+//sluzba githubu, kde muzete hostovat sve staticke stranky
+//1) projekt musi byt public
+//2) musi to byt staticka stranka (zadne PHP jenom HTML, CSS, JS)
+//3) index.html musi byt v korenove slozce (pokud je vas index vnoreny v podslozce, tak existuje trik, kdy vlozite do korenoveho adresare jiny index.html, ktery uzivatele odkaze na index uvnitr podlozky)
